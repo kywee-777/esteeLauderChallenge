@@ -13,6 +13,9 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
+//            VideoPlayer(player: AVPlayer(url:  Bundle.main.url(forResource: "esteeVid1", withExtension: "mp4")!))
+//                .frame(width: 300, height: 300)
+//                .position(x:180, y:290)
 
         }
         .padding()
